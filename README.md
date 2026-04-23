@@ -1,7 +1,7 @@
-                                          ##Laporan Tugas APBO - Sistem informasi Booking Servis Kendaraan## 
-                          Tugas Analisis Perancangan Berorientasi Objek - Kelas A Dosen: Adi Wahyu Pribadi, S.T M.T
+# Laporan Tugas APBO - Sistem informasi Booking Servis Kendaraan
+Tugas Analisis Perancangan Berorientasi Objek - Kelas A Dosen: Adi Wahyu Pribadi, S.T M.T
 
-# Indentitas Proyek.
+## Indentitas Proyek.
 - Proyek ini bertujuan untuk membangun sebuah Sistem Informasi Booking Servis Kendaraan
   berbasis objek yang berfungsi mengotomatisasi proses penjadwalan antara pelanggan dan langsung
   dari meja melalui pemindaian QR Code, meminimalisir antrean, serta memberikan kenyamanan bagi
