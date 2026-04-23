@@ -7,7 +7,7 @@ Tugas Analisis Perancangan Berorientasi Objek - Kelas A Dosen: Adi Wahyu Pribadi
   dari meja melalui pemindaian QR Code, meminimalisir antrean, serta memberikan kenyamanan bagi
   pengguna. Selain itu, CafeEase membantu pemilik cafe mengelola pesanan agar lebih cepat, rapi, dan efisien.
 
-  ## Nama Kelompok
+  ### Nama Kelompok
   - Abidzar Nur Wahid - 4522210123
   - a
   - a
