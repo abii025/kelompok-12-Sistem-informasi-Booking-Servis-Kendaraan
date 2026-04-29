@@ -142,3 +142,40 @@ Sistem yang dikembangkan diharapkan memenuhi beberapa aspek berikut:
 - Bertanggung jawab dalam mengelola data booking, jadwal servis, serta data pelanggan.
 2. Pelanggan
 - Dapat melakukan pemesanan servis dan memilih jadwal yang tersedia sesuai kebutuhan.
+
+## ANALISIS AKTOR
+### 1.Pelanggan (Customer)
+Pelanggan merupakan aktor utama yang menggunakan sistem untuk melakukan pemesanan layanan servis kendaraan.
+Peran:
+- Mengakses sistem untuk melakukan booking servis
+- Mengelola data pribadi dan data kendaraan
+- Melihat jadwal ketersediaan servis
+- Memantau status booking
+### 2.Admin Sistem
+Admin adalah pihak yang bertanggung jawab dalam mengelola sistem secara keseluruhan.
+Peran:
+- Mengelola data pengguna
+- Mengatur jadwal servis
+- Mengelola data layanan dan mekanik
+- Memastikan sistem berjalan dengan baik
+### 3.Mekanik
+Mekanik merupakan aktor yang melaksanakan proses servis kendaraan.
+Peran:
+- Melihat jadwal servis yang telah ditentukan
+- Melakukan pekerjaan servis sesuai booking
+- Memberikan update status pekerjaan
+### 4.Service Advisor 
+Service Advisor bertindak sebagai penghubung antara pelanggan dan mekanik.
+Peran:
+- Mengonfirmasi booking pelanggan
+- Mengelola komunikasi dengan pelanggan
+- Menentukan estimasi waktu dan biaya servis
+### 5.Sistem Pembayaran (Payment Gateway)
+Merupakan sistem eksternal yang menangani proses pembayaran (jika tersedia fitur pembayaran online).
+Peran:
+- Memproses transaksi pembayaran
+- Memberikan konfirmasi pembayaran
+### 6.Sistem Notifikasi
+Sistem eksternal yang digunakan untuk mengirim notifikasi kepada pengguna.
+Peran:
+- Mengirim pemberitahuan booking, pengingat jadwal, dan status servis
