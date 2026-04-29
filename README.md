@@ -180,9 +180,12 @@ Sistem eksternal yang digunakan untuk mengirim notifikasi kepada pengguna.
 Peran:
 - Mengirim pemberitahuan booking, pengingat jadwal, dan status servis
 
-# Analisis Perbandingan Sistem
+### Analisis Perbandingan Sistem
 |Proses | Sistem Lama | Sistem Baru |
 |:--|:--|:--|
 |Booking | Booking dengan menghubungi ke whatsapp bengkel | Booking melalui website bengkel dan dapat melihat langsung jadwal yang terisi |
 |Monitoring Progress| Monitoring masih komunikasi lewat whatsapp | Dapat memonitor progress dan detail nya melalui website |
 |Manajemen Antrian | Masih menggunakan catatan manual | Antrian di input otomatis |
+
+### Link vidio wawancara
+https://youtu.be/hNwAWVdI3B8?si=8AMIQeuEv60Fx9Zi
