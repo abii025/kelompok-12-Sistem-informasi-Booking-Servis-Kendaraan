@@ -11,5 +11,5 @@ pengguna. Selain itu, CafeEase membantu pemilik cafe mengelola pesanan agar lebi
   - Abidzar Nur Wahid - 4522210123
   - Veruzi Fajrin - 4520210078
   - Kessya Immanuella Surbakti - 4522210137
-  - a
+  - Muhamad Diva Fahrizal - 4520210107
   - a
