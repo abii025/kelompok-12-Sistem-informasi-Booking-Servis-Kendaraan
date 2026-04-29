@@ -8,13 +8,13 @@ Tugas Analisis Perancangan Berorientasi Objek - Kelas A Dosen: Adi Wahyu Pribadi
   - Muhamad Diva Fahrizal - 4520210107
   - Gina Annisa R.A - 4522210154
 
-## Indentitas Proyek.
+## 1. Indentitas Proyek.
   Proyek ini bertujuan untuk membangun sebuah Sistem Informasi Booking Servis Kendaraan
 berbasis objek yang berfungsi mengotomatisasi proses penjadwalan antara pelanggan dan langsung
 dari meja melalui pemindaian QR Code, meminimalisir antrean, serta memberikan kenyamanan bagi
 pengguna. Selain itu, CafeEase membantu pemilik cafe mengelola pesanan agar lebih cepat, rapi, dan efisien.
 
-## Latar Belakang
+## 2. Latar Belakang
 Perkembangan teknologi informasi dan komunikasi yang semakin pesat telah memberikan dampak signifikan terhadap berbagai aspek kehidupan, termasuk dalam bidang bisnis dan pelayanan jasa.
 Pemanfaatan sistem informasi menjadi salah satu solusi strategis dalam meningkatkan efisiensi, efektivitas, serta kualitas layanan kepada pelanggan. 
 Dalam era digital saat ini, masyarakat cenderung menginginkan layanan yang cepat, mudah diakses, dan terintegrasi secara sistematis.
@@ -34,7 +34,7 @@ Penerapan sistem informasi ini juga diharapkan dapat meningkatkan efisiensi oper
 serta meningkatkan kepuasan pelanggan terhadap layanan yang diberikan. Selain itu, sistem ini dapat menjadi sarana pendukung dalam pengambilan keputusan berbasis data, 
 sehingga mampu meningkatkan daya saing usaha di bidang jasa servis kendaraan.
 
-## Identifikasi Masalah
+## 3. Identifikasi Masalah
   Dalam pelaksanaan pemesanan layanan servis kendaraan, masih banyak bengkel yang menerapkan metode konvensional, seperti pelanggan harus datang langsung atau melakukan pemesanan melalui telepon. Kondisi ini menimbulkan beberapa kendala, di antaranya:
 
 - #### Proses pemesanan yang kurang efektif
@@ -54,8 +54,8 @@ sehingga mampu meningkatkan daya saing usaha di bidang jasa servis kendaraan.
 
 Berdasarkan permasalahan tersebut, diperlukan suatu sistem informasi booking servis kendaraan berbasis online yang mampu meningkatkan efisiensi, mempermudah proses pemesanan, serta mendukung pengelolaan layanan yang lebih terorganisir.
 
-## ANALISIS KEBUTUHAN PENGGUNA
-### Empathy Map
+## 4. ANALISIS KEBUTUHAN PENGGUNA
+- #### Empathy Map
 | User | Says | Thinks | Does | Feels |
 |:-----|:-----|:-------|:-----|:------|
 |**Pelanggan**| "Lelah menunggu jika sudah di bengkel tapi antrian panjang" | "Kalau bisa pilih jadwal dan memantau dari jarak jauh pasti lebih fleksibel dan sudah jelas kepastian nya" | "Menunggu antrian di bengkel atau kembali pulang" | "Lelah dan bosan menunggu antrian di bengkel" |
