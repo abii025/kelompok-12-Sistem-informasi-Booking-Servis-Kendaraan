@@ -10,6 +10,6 @@ pengguna. Selain itu, CafeEase membantu pemilik cafe mengelola pesanan agar lebi
   ### Nama Kelompok
   - Abidzar Nur Wahid - 4522210123
   - Veruzi Fajrin - 4520210078
-  - a
+  - Kessya Immanuella Surbakti - 4522210137
   - a
   - a
