@@ -37,19 +37,19 @@ sehingga mampu meningkatkan daya saing usaha di bidang jasa servis kendaraan.
 ## Identifikasi Masalah
 - Dalam pelaksanaan pemesanan layanan servis kendaraan, masih banyak bengkel yang menerapkan metode konvensional, seperti pelanggan harus datang langsung atau melakukan pemesanan melalui telepon. Kondisi ini menimbulkan beberapa kendala, di antaranya:
 
-#### Proses pemesanan yang kurang efektif
-- Pelanggan perlu meluangkan waktu dan tenaga lebih untuk melakukan booking secara langsung atau melalui komunikasi manual.
+- #### Proses pemesanan yang kurang efektif
+  Pelanggan perlu meluangkan waktu dan tenaga lebih untuk melakukan booking secara langsung atau melalui komunikasi manual.
 
-#### Kesulitan dalam pengaturan jadwal
-- Tanpa adanya sistem yang terintegrasi, sering terjadi tumpang tindih jadwal antar pelanggan.
+- #### Kesulitan dalam pengaturan jadwal
+  Tanpa adanya sistem yang terintegrasi, sering terjadi tumpang tindih jadwal antar pelanggan.
 
-#### Minimnya keterbukaan informasi
-- Informasi mengenai ketersediaan layanan, pilihan servis, serta estimasi waktu pengerjaan belum tersampaikan secara optimal.
+- #### Minimnya keterbukaan informasi
+  Informasi mengenai ketersediaan layanan, pilihan servis, serta estimasi waktu pengerjaan belum tersampaikan secara optimal.
 
-#### Pengelolaan data yang belum terstruktur
-- Data pelanggan dan riwayat servis masih dicatat secara manual, sehingga rentan terhadap kehilangan dan kesulitan dalam pencarian data.
+- #### Pengelolaan data yang belum terstruktur
+  Data pelanggan dan riwayat servis masih dicatat secara manual, sehingga rentan terhadap kehilangan dan kesulitan dalam pencarian data.
 
-### Kurang optimalnya manajemen operasional
-Pihak bengkel mengalami kesulitan dalam mengatur antrian serta memantau proses layanan secara efisien.
+- #### Kurang optimalnya manajemen operasional
+  Pihak bengkel mengalami kesulitan dalam mengatur antrian serta memantau proses layanan secara efisien.
 
 Berdasarkan permasalahan tersebut, diperlukan suatu sistem informasi booking servis kendaraan berbasis online yang mampu meningkatkan efisiensi, mempermudah proses pemesanan, serta mendukung pengelolaan layanan yang lebih terorganisir.
