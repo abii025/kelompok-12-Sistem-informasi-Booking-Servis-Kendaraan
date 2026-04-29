@@ -10,5 +10,14 @@
 **Aktor 02 - Admin/Pengelola :** Membutuhkan sistem yang dapat menginput antrian otomatis dan menampilkan data antrian.
 
 ## Daftar Use Case
+| Use Case | Deskripsi | Aktor |
+|:-------- |:--------- |:----- |
+|Booking | Pelanggan dapat melakukan booking dan harus login | Pelanggan |
+|Cancel | Pelanggan dapat membatalkan booking | Pelanggan |
+|Melihat Progress | Pelanggan dapat melihat progress pesanan service nya | Pelanggan |
+|Melihat Antrian | Admin dapat melihat list ntrian | Admin |
+|Update Progress | Admin dapat menginput progress apa saja yang sudah dilakukan dalam proses service | Admin |
+|Melihat Detail Booking | Admin dapat melihat detail booking dari salah satu list antrian | Admin |
 
 ## Use Case Diagram
+![Diagram](use-case_SI-Booking-Service-Kendaraan.jpg)
