@@ -35,7 +35,7 @@ serta meningkatkan kepuasan pelanggan terhadap layanan yang diberikan. Selain it
 sehingga mampu meningkatkan daya saing usaha di bidang jasa servis kendaraan.
 
 ## Identifikasi Masalah
-- Dalam pelaksanaan pemesanan layanan servis kendaraan, masih banyak bengkel yang menerapkan metode konvensional, seperti pelanggan harus datang langsung atau melakukan pemesanan melalui telepon. Kondisi ini menimbulkan beberapa kendala, di antaranya:
+  Dalam pelaksanaan pemesanan layanan servis kendaraan, masih banyak bengkel yang menerapkan metode konvensional, seperti pelanggan harus datang langsung atau melakukan pemesanan melalui telepon. Kondisi ini menimbulkan beberapa kendala, di antaranya:
 
 - #### Proses pemesanan yang kurang efektif
   Pelanggan perlu meluangkan waktu dan tenaga lebih untuk melakukan booking secara langsung atau melalui komunikasi manual.
