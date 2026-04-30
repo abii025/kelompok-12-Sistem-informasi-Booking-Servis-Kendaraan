@@ -2,11 +2,11 @@
 Tugas Analisis Perancangan Berorientasi Objek - Kelas A Dosen: Adi Wahyu Pribadi, S.T M.T
 
 ## Nama Kelompok
-  - Abidzar Nur Wahid - 4522210123
-  - Veruzi Fajrin - 4520210078
-  - Kessya Immanuella Surbakti - 4522210137
-  - Muhamad Diva Fahrizal - 4520210107
-  - Gina Annisa R.A - 4522210154
+  - #### Abidzar Nur Wahid - 4522210123
+  - #### Veruzi Fajrin - 4520210078
+  - #### Kessya Immanuella Surbakti - 4522210137
+  - #### Muhamad Diva Fahrizal - 4520210107
+  - #### Gina Annisa R.A - 4522210154
 
 ## 1. Indentitas Proyek.
   Proyek ini bertujuan untuk membangun sebuah Sistem Informasi Booking Servis Kendaraan
@@ -145,38 +145,38 @@ Sistem yang dikembangkan diharapkan memenuhi beberapa aspek berikut:
 
 ## 7. ANALISIS AKTOR
 
-#### 1.Pelanggan (Customer)
+#### 1. Pelanggan (Customer)
 Pelanggan merupakan aktor utama yang menggunakan sistem untuk melakukan pemesanan layanan servis kendaraan.
 Peran:
 - Mengakses sistem untuk melakukan booking servis
 - Mengelola data pribadi dan data kendaraan
 - Melihat jadwal ketersediaan servis
 - Memantau status booking
-#### 2.Admin Sistem
+#### 2. Admin Sistem
 Admin adalah pihak yang bertanggung jawab dalam mengelola sistem secara keseluruhan.
 Peran:
 - Mengelola data pengguna
 - Mengatur jadwal servis
 - Mengelola data layanan dan mekanik
 - Memastikan sistem berjalan dengan baik
-#### 3.Mekanik
+#### 3. Mekanik
 Mekanik merupakan aktor yang melaksanakan proses servis kendaraan.
 Peran:
 - Melihat jadwal servis yang telah ditentukan
 - Melakukan pekerjaan servis sesuai booking
 - Memberikan update status pekerjaan
-#### 4.Service Advisor 
+#### 4. Service Advisor 
 Service Advisor bertindak sebagai penghubung antara pelanggan dan mekanik.
 Peran:
 - Mengonfirmasi booking pelanggan
 - Mengelola komunikasi dengan pelanggan
 - Menentukan estimasi waktu dan biaya servis
-#### 5.Sistem Pembayaran (Payment Gateway)
+#### 5. Sistem Pembayaran (Payment Gateway)
 Merupakan sistem eksternal yang menangani proses pembayaran (jika tersedia fitur pembayaran online).
 Peran:
 - Memproses transaksi pembayaran
 - Memberikan konfirmasi pembayaran
-#### 6.Sistem Notifikasi
+#### 6. Sistem Notifikasi
 Sistem eksternal yang digunakan untuk mengirim notifikasi kepada pengguna.
 Peran:
 - Mengirim pemberitahuan booking, pengingat jadwal, dan status servis
