@@ -4,11 +4,11 @@ Tugas Analisis Perancangan Berorientasi Objek - Kelas A Dosen: Adi Wahyu Pribadi
 ## Nama Kelompok
 | Nama | NIM |
 |:-----|:-----|
-|Abidzar Nur Wahid - 4522210123|
-|Veruzi Fajrin - 4520210078|
-|Kessya Immanuella Surbakti - 4522210137|
-|Muhamad Diva Fahrizal - 4520210107|
-|Gina Annisa R.A - 4522210154|
+|Abidzar Nur Wahid | 4522210123|
+|Veruzi Fajrin | 4520210078|
+|Kessya Immanuella Surbakti | 4522210137|
+|Muhamad Diva Fahrizal | 4520210107|
+|Gina Annisa R.A | 4522210154|
 
 ## 1. Indentitas Proyek.
   Proyek ini bertujuan untuk membangun sebuah Sistem Informasi Booking Servis Kendaraan
