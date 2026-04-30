@@ -78,7 +78,7 @@ Berdasarkan permasalahan tersebut, diperlukan suatu sistem informasi booking ser
 ### Use Case Diagram
 ![Diagram](use-case_SI-Booking-Service-Kendaraan.jpg)
 
-## Saran pengguna
+## 5. Saran pengguna
 
 ### 1. Pemilik Kendaraan (Customer)
 
@@ -119,7 +119,7 @@ Memberikan catatan hasil servis kendaraan
 
 Dengan adanya sistem ini, mekanik dapat mengetahui pekerjaan yang harus dilakukan secara lebih terstruktur dan terjadwal.
 
-## Analisis Kebutuhan Sistem
+## 6. Analisis Kebutuhan Sistem
 
 ### Kebutuhan Fungsional
 Berdasarkan hasil wawancara, sistem yang dirancang diharapkan dapat:
@@ -143,7 +143,8 @@ Sistem yang dikembangkan diharapkan memenuhi beberapa aspek berikut:
 2. Pelanggan
 - Dapat melakukan pemesanan servis dan memilih jadwal yang tersedia sesuai kebutuhan.
 
-## ANALISIS AKTOR
+## 7. ANALISIS AKTOR
+
 ### 1.Pelanggan (Customer)
 Pelanggan merupakan aktor utama yang menggunakan sistem untuk melakukan pemesanan layanan servis kendaraan.
 Peran:
@@ -180,12 +181,42 @@ Sistem eksternal yang digunakan untuk mengirim notifikasi kepada pengguna.
 Peran:
 - Mengirim pemberitahuan booking, pengingat jadwal, dan status servis
 
-### Analisis Perbandingan Sistem
+## 8. Analisis Perbandingan Sistem
 |Proses | Sistem Lama | Sistem Baru |
 |:--|:--|:--|
 |Booking | Booking dengan menghubungi ke whatsapp bengkel | Booking melalui website bengkel dan dapat melihat langsung jadwal yang terisi |
 |Monitoring Progress| Monitoring masih komunikasi lewat whatsapp | Dapat memonitor progress dan detail nya melalui website |
 |Manajemen Antrian | Masih menggunakan catatan manual | Antrian di input otomatis |
 
-### Link vidio wawancara
+## 9. Link vidio wawancara
 https://youtu.be/hNwAWVdI3B8?si=8AMIQeuEv60Fx9Zi
+
+## 10. Workflow Sistem Informasi Booking Servis Kendaraan
+
+### 1. Alur Booking oleh Pelanggan
+Pelanggan membuka aplikasi / sistem booking
+Pelanggan melakukan login / registrasi
+Pelanggan memilih layanan servis
+Pelanggan memasukkan data kendaraan
+Pelanggan memilih tanggal & jam yang tersedia
+Sistem mengecek ketersediaan jadwal
+Jika tersedia → booking dikonfirmasi
+Sistem menyimpan data booking dan menampilkan bukti booking (QR Code / kode booking)
+
+### 2. Alur Pengelolaan oleh Admin/Bengkel
+Admin login ke sistem
+Admin melihat daftar booking masuk
+Admin melakukan validasi jadwal
+Admin mengatur antrian servis
+Admin menginput proses pengerjaan servis
+Admin mengupdate status (Menunggu → Diproses → Selesai)
+Sistem menyimpan riwayat servis
+
+### 3. Alur Saat Hari Servis
+Pelanggan datang ke bengkel
+Pelanggan melakukan check-in (scan QR / input kode)
+Sistem memverifikasi data booking
+Kendaraan masuk antrian servis
+Mekanik melakukan servis
+Setelah selesai → status diupdate
+Pelanggan menerima notifikasi selesai
