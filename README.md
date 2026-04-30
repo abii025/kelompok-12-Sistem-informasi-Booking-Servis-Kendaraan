@@ -77,7 +77,7 @@ Berdasarkan permasalahan tersebut, diperlukan suatu sistem informasi booking ser
 |Update Progress | Admin dapat menginput progress apa saja yang sudah dilakukan dalam proses service | Admin |
 |Melihat Detail Booking | Admin dapat melihat detail booking dari salah satu list antrian | Admin |
 
-_ #### Use Case Diagram
+- #### Use Case Diagram
 ![Diagram](use-case_SI-Booking-Service-Kendaraan.jpg)
 
 ## 5. Saran pengguna
