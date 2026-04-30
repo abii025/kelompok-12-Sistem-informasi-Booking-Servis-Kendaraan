@@ -61,11 +61,11 @@ Berdasarkan permasalahan tersebut, diperlukan suatu sistem informasi booking ser
 |**Pelanggan**| "Lelah menunggu jika sudah di bengkel tapi antrian panjang" | "Kalau bisa pilih jadwal dan memantau dari jarak jauh pasti lebih fleksibel dan sudah jelas kepastian nya" | "Menunggu antrian di bengkel atau kembali pulang" | "Lelah dan bosan menunggu antrian di bengkel" |
 |**Admin/Pengelola**| "Sulit mengelola data pesanan dari whatsapp" | "Ingin sistem yang dapat menginput antrian otomatis" | "Mencatat manual antrian" | "Stress jika antrian tidak berjalan sesuai urutan" |
 
-### Daftar Aktor
+- #### Daftar Aktor
 **Aktor 01 - Pelanggan :** Ingin sistem yang dapat memantau jadwal sekaligus progress dan dapat booking tanpa ke bengkel.
 **Aktor 02 - Admin/Pengelola :** Membutuhkan sistem yang dapat menginput antrian otomatis dan menampilkan data antrian.
 
-### Daftar Use Case
+- #### Daftar Use Case
 | Use Case | Deskripsi | Aktor |
 |:-------- |:--------- |:----- |
 |Booking | Pelanggan dapat melakukan booking dan harus login | Pelanggan |
@@ -75,12 +75,12 @@ Berdasarkan permasalahan tersebut, diperlukan suatu sistem informasi booking ser
 |Update Progress | Admin dapat menginput progress apa saja yang sudah dilakukan dalam proses service | Admin |
 |Melihat Detail Booking | Admin dapat melihat detail booking dari salah satu list antrian | Admin |
 
-### Use Case Diagram
+_ #### Use Case Diagram
 ![Diagram](use-case_SI-Booking-Service-Kendaraan.jpg)
 
 ## 5. Saran pengguna
 
-### 1. Pemilik Kendaraan (Customer)
+#### 1. Pemilik Kendaraan (Customer)
 
 Pemilik kendaraan merupakan pengguna utama sistem yang menggunakan aplikasi untuk melakukan pemesanan layanan servis kendaraan tanpa harus datang langsung ke bengkel.
 Melalui sistem ini, pemilik kendaraan dapat:
@@ -94,7 +94,7 @@ Melihat riwayat servis kendaraan
 
 Dengan adanya sistem ini, pemilik kendaraan dapat menghemat waktu dan menghindari antrian panjang di bengkel.
 
-### 2. Admin Bengkel
+#### 2. Admin Bengkel
 
 Admin bengkel bertugas mengelola seluruh data dan aktivitas yang ada dalam sistem. Admin memiliki peran penting dalam memastikan sistem berjalan dengan baik.
 Beberapa tugas admin dalam sistem ini antara lain:
@@ -107,7 +107,7 @@ Melihat dan membuat laporan servis
 
 Admin menggunakan sistem untuk memastikan seluruh proses booking dan pelayanan berjalan dengan tertib dan terorganisir.
 
-### 3. Mekanik / Teknisi
+#### 3. Mekanik / Teknisi
 
 Mekanik atau teknisi merupakan pengguna yang bertanggung jawab dalam melakukan proses servis kendaraan sesuai dengan jadwal yang telah dipesan oleh pelanggan.
 Melalui sistem ini, mekanik dapat:
@@ -121,7 +121,7 @@ Dengan adanya sistem ini, mekanik dapat mengetahui pekerjaan yang harus dilakuka
 
 ## 6. Analisis Kebutuhan Sistem
 
-### Kebutuhan Fungsional
+#### Kebutuhan Fungsional
 Berdasarkan hasil wawancara, sistem yang dirancang diharapkan dapat:
 1. Menyediakan layanan pemesanan servis secara online.
 2. Menyimpan informasi pelanggan seperti nama, nomor telepon, jenis kendaraan, keluhan, serta jadwal servis.
@@ -130,14 +130,14 @@ Berdasarkan hasil wawancara, sistem yang dirancang diharapkan dapat:
 5. Menampilkan kapasitas layanan servis setiap harinya.
 6. Memberikan notifikasi atau konfirmasi kepada pelanggan terkait booking yang dilakukan.
 
-### Kebutuhan Non-Fungsional
+#### Kebutuhan Non-Fungsional
 Sistem yang dikembangkan diharapkan memenuhi beberapa aspek berikut:
 1. Memiliki tampilan yang mudah dipahami dan digunakan.
 2. Memberikan kinerja yang cepat dan responsif.
 3. Menjamin keamanan serta keakuratan data yang tersimpan.
 4. Dapat diakses kapan saja tanpa batasan waktu.
 
-### Kebutuhan Pengguna
+#### Kebutuhan Pengguna
 1. Admin/Bengkel
 - Bertanggung jawab dalam mengelola data booking, jadwal servis, serta data pelanggan.
 2. Pelanggan
@@ -145,38 +145,38 @@ Sistem yang dikembangkan diharapkan memenuhi beberapa aspek berikut:
 
 ## 7. ANALISIS AKTOR
 
-### 1.Pelanggan (Customer)
+#### 1.Pelanggan (Customer)
 Pelanggan merupakan aktor utama yang menggunakan sistem untuk melakukan pemesanan layanan servis kendaraan.
 Peran:
 - Mengakses sistem untuk melakukan booking servis
 - Mengelola data pribadi dan data kendaraan
 - Melihat jadwal ketersediaan servis
 - Memantau status booking
-### 2.Admin Sistem
+#### 2.Admin Sistem
 Admin adalah pihak yang bertanggung jawab dalam mengelola sistem secara keseluruhan.
 Peran:
 - Mengelola data pengguna
 - Mengatur jadwal servis
 - Mengelola data layanan dan mekanik
 - Memastikan sistem berjalan dengan baik
-### 3.Mekanik
+#### 3.Mekanik
 Mekanik merupakan aktor yang melaksanakan proses servis kendaraan.
 Peran:
 - Melihat jadwal servis yang telah ditentukan
 - Melakukan pekerjaan servis sesuai booking
 - Memberikan update status pekerjaan
-### 4.Service Advisor 
+#### 4.Service Advisor 
 Service Advisor bertindak sebagai penghubung antara pelanggan dan mekanik.
 Peran:
 - Mengonfirmasi booking pelanggan
 - Mengelola komunikasi dengan pelanggan
 - Menentukan estimasi waktu dan biaya servis
-### 5.Sistem Pembayaran (Payment Gateway)
+#### 5.Sistem Pembayaran (Payment Gateway)
 Merupakan sistem eksternal yang menangani proses pembayaran (jika tersedia fitur pembayaran online).
 Peran:
 - Memproses transaksi pembayaran
 - Memberikan konfirmasi pembayaran
-### 6.Sistem Notifikasi
+#### 6.Sistem Notifikasi
 Sistem eksternal yang digunakan untuk mengirim notifikasi kepada pengguna.
 Peran:
 - Mengirim pemberitahuan booking, pengingat jadwal, dan status servis
@@ -193,7 +193,7 @@ https://youtu.be/hNwAWVdI3B8?si=8AMIQeuEv60Fx9Zi
 
 ## 10. Workflow Sistem Informasi Booking Servis Kendaraan
 
-### 1. Alur Booking oleh Pelanggan
+#### 1. Alur Booking oleh Pelanggan
 Pelanggan membuka aplikasi / sistem booking
 Pelanggan melakukan login / registrasi
 Pelanggan memilih layanan servis
@@ -203,7 +203,7 @@ Sistem mengecek ketersediaan jadwal
 Jika tersedia → booking dikonfirmasi
 Sistem menyimpan data booking dan menampilkan bukti booking (QR Code / kode booking)
 
-### 2. Alur Pengelolaan oleh Admin/Bengkel
+#### 2. Alur Pengelolaan oleh Admin/Bengkel
 Admin login ke sistem
 Admin melihat daftar booking masuk
 Admin melakukan validasi jadwal
@@ -212,7 +212,7 @@ Admin menginput proses pengerjaan servis
 Admin mengupdate status (Menunggu → Diproses → Selesai)
 Sistem menyimpan riwayat servis
 
-### 3. Alur Saat Hari Servis
+#### 3. Alur Saat Hari Servis
 Pelanggan datang ke bengkel
 Pelanggan melakukan check-in (scan QR / input kode)
 Sistem memverifikasi data booking
