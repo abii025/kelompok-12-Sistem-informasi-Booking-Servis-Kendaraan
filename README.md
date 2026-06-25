@@ -264,7 +264,7 @@ Class diagram yang dirancang menggambarkan struktur dan hubungan antarobjek dala
 
 ## Sequence Diagram
 
-![Sequence Diagram](sequence%20diagram.png)
+![Sequence Diagram](Sequence%20Diagram.png)
 
 ## Penjelasan
 
