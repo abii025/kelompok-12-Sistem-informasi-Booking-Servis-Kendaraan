@@ -261,3 +261,34 @@ Pelanggan menerima notifikasi selesai
     digunakan untuk mengelola transaksi pembayaran layanan servis, mencakup nominal pembayaran, metode yang digunakan, waktu transaksi, dan status pembayaran.
 
 Class diagram yang dirancang menggambarkan struktur dan hubungan antarobjek dalam Sistem Informasi Booking Servis Kendaraan. Setiap kelas memiliki tanggung jawab yang berbeda namun saling terintegrasi untuk mendukung proses pemesanan servis, pengelolaan antrian, pemantauan progres pekerjaan, pengiriman notifikasi, hingga pengelolaan pembayaran. Dengan rancangan ini, sistem diharapkan mampu meningkatkan efektivitas operasional bengkel sekaligus memberikan kemudahan dan kenyamanan bagi pelanggan dalam memperoleh layanan servis kendaraan.
+
+## Sequence Diagram
+
+![Sequence Diagram SI Booking Service Kendaraan](images/sequence-diagram.png)
+
+## Penjelasan
+
+### Aktor
+- Pelanggan
+- Admin
+
+### Alur Sistem
+
+#### 1. Login
+Pelanggan melakukan login melalui aplikasi Web/Mobile. Sistem memvalidasi kredensial ke database dan menampilkan beranda apabila berhasil.
+
+#### 2. Booking Kendaraan
+Pelanggan membuat booking layanan kendaraan. Data booking disimpan ke database dan sistem menampilkan detail booking.
+
+#### 3. Pembatalan Booking
+Pelanggan dapat membatalkan booking. Status booking akan diperbarui menjadi **Cancelled** pada database.
+
+#### 4. Melihat Progress
+Pelanggan dapat melihat progres pengerjaan kendaraan berdasarkan ID booking.
+
+#### 5. Melihat Antrian (Admin)
+Admin dapat melihat daftar antrian booking yang sedang diproses.
+
+#### 6. Detail Booking (Admin)
+Admin dapat melihat detail booking berdasarkan ID booking yang dipilih.
+
