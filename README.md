@@ -264,7 +264,7 @@ Class diagram yang dirancang menggambarkan struktur dan hubungan antarobjek dala
 
 ## Sequence Diagram
 
-![Sequence Diagram SI Booking Service Kendaraan](images/sequence-diagram.png)
+![Sequence Diagram](sequence%20diagram.png)
 
 ## Penjelasan
 
