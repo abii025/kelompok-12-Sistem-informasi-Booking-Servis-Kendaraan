@@ -227,4 +227,37 @@ Pelanggan menerima notifikasi selesai
 
 ![Class Diagram](Class%20Diagram.png)
 
+1. User
+User merupakan kelas utama yang menjadi dasar bagi seluruh pengguna dalam sistem. Kelas ini menyimpan data umum pengguna seperti identitas, nama, email, nomor telepon, dan kata sandi, serta menyediakan fitur autentikasi berupa login dan logout.
+
+3. Customer (Pelanggan)
+Customer adalah pengguna yang memanfaatkan sistem untuk melakukan pemesanan layanan servis kendaraan. Pelanggan dapat mengajukan booking, membatalkan reservasi, melihat riwayat servis, dan memantau perkembangan pengerjaan kendaraan.
+
+4. Admin
+Admin berperan dalam mengelola dan mengawasi seluruh aktivitas sistem. Tugasnya meliputi pengelolaan data pengguna, layanan servis, data booking, serta penyusunan laporan operasional bengkel.
+
+5. Mechanic (Mekanik)
+Mechanic bertanggung jawab melaksanakan proses servis kendaraan sesuai jadwal yang tersedia. Mekanik juga dapat memperbarui status pengerjaan dan memberikan catatan terkait hasil servis.
+
+6. Service Advisor
+Service Advisor berfungsi sebagai perantara antara pelanggan dan bengkel. Perannya mencakup konfirmasi booking, pemberian informasi estimasi biaya dan waktu pengerjaan, serta membantu komunikasi dengan pelanggan.
+
+7. Vehicle (Kendaraan)
+Vehicle digunakan untuk menyimpan informasi kendaraan milik pelanggan, seperti nomor kendaraan, merek, tipe, dan tahun pembuatan yang diperlukan dalam proses servis.
+
+8. Service (Layanan Servis)
+Kelas Service menyimpan data mengenai jenis layanan yang disediakan bengkel, termasuk nama layanan, deskripsi, biaya, dan perkiraan durasi pengerjaan.
+
+9. Booking
+Booking merupakan kelas yang menangani proses reservasi servis kendaraan. Data yang dikelola meliputi jadwal servis, nomor antrian, keluhan pelanggan, dan status pemesanan.
+
+10. Service Progress
+Service Progress digunakan untuk mencatat dan memperbarui tahapan pengerjaan servis kendaraan sehingga perkembangan pekerjaan dapat dipantau dengan mudah.
+
+11. Notification
+Notification bertugas mengelola penyampaian informasi kepada pengguna, seperti konfirmasi booking, pengingat jadwal servis, dan pembaruan status pengerjaan.
+
+14. Payment
+Payment digunakan untuk mengelola transaksi pembayaran layanan servis, mencakup nominal pembayaran, metode yang digunakan, waktu transaksi, dan status pembayaran.
+
 Class diagram yang dirancang menggambarkan struktur dan hubungan antarobjek dalam Sistem Informasi Booking Servis Kendaraan. Setiap kelas memiliki tanggung jawab yang berbeda namun saling terintegrasi untuk mendukung proses pemesanan servis, pengelolaan antrian, pemantauan progres pekerjaan, pengiriman notifikasi, hingga pengelolaan pembayaran. Dengan rancangan ini, sistem diharapkan mampu meningkatkan efektivitas operasional bengkel sekaligus memberikan kemudahan dan kenyamanan bagi pelanggan dalam memperoleh layanan servis kendaraan.
