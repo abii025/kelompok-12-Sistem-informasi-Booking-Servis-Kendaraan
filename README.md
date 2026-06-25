@@ -222,3 +222,9 @@ Kendaraan masuk antrian servis
 Mekanik melakukan servis
 Setelah selesai → status diupdate
 Pelanggan menerima notifikasi selesai
+
+## Class Diagram
+
+![Class Diagram](Class%20Diagram.png)
+
+Class diagram yang dirancang menggambarkan struktur dan hubungan antarobjek dalam Sistem Informasi Booking Servis Kendaraan. Setiap kelas memiliki tanggung jawab yang berbeda namun saling terintegrasi untuk mendukung proses pemesanan servis, pengelolaan antrian, pemantauan progres pekerjaan, pengiriman notifikasi, hingga pengelolaan pembayaran. Dengan rancangan ini, sistem diharapkan mampu meningkatkan efektivitas operasional bengkel sekaligus memberikan kemudahan dan kenyamanan bagi pelanggan dalam memperoleh layanan servis kendaraan.
